@@ -18,7 +18,7 @@ class AddPost extends Component {
       title,
       content,
       user: {
-        uid: "1111",
+        uid: this.props.user.uid,
         displayName: "Steve Kinney",
         email: "steve@mailinator.com",
         photoURL: "http://placekitten.com/g/200/200"
